@@ -564,6 +564,7 @@ width: 50%;
 /* client section */
 .client_section {
   text-align: center;
+  background: url("images/front1.jpg") center/cover no-repeat;
 }
 
 .client_section #carouselExampleControls {
