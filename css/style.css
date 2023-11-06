@@ -669,7 +669,7 @@ width: 50%;
           align-items: center;
 }
 
-.contact_bg_box {
+.client_bg_box {
   position: absolute;
   top: 0;
   left: 0;
@@ -688,16 +688,16 @@ width: 50%;
           align-items: center;
 }
 
-.contact_bg_box .img-box {
+.client_bg_box .img-box {
   width: 100%;
 }
 
-.contact_bg_box .img-box img {
+.client_bg_box .img-box img {
   min-width: 100%;
   min-height: 100%;
 }
 
-.contact_bg_box::before {
+.client_bg_box::before {
   content: "";
   position: absolute;
   top: 0;
