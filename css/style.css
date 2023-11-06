@@ -562,6 +562,7 @@ width: 50%;
   }
 
 
+/* client section */
 .client_section {
   text-align: center;
 }
@@ -656,6 +657,7 @@ width: 50%;
   left: initial;
   right: 0;
 }
+/* end client section */
 
 /* contact section */
 .contact_section {
