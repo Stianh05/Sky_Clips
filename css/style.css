@@ -565,6 +565,7 @@ width: 50%;
 .client_section {
   text-align: center;
   position: relative;
+  color: #ffffff;
 }
 
 .client_section #carouselExampleControls {
@@ -611,7 +612,7 @@ width: 50%;
   font-weight: bold;
   font-size: 18px;
   padding: 0 10px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #000000;
 }
 
 
