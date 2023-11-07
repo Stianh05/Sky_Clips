@@ -564,11 +564,8 @@ width: 50%;
 
 .client_section {
   position: relative;
-<<<<<<< HEAD
-  color: #ffffff;
-=======
   text-align: center;
->>>>>>> 56a4202cfc028421e7ba1b46e36b71075be6a89f
+  color: #ffffff;
 }
 
 .client_section #carouselExampleControls {
