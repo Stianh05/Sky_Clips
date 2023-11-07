@@ -564,7 +564,11 @@ width: 50%;
 
 .client_section {
   position: relative;
+<<<<<<< HEAD
+  color: #ffffff;
+=======
   text-align: center;
+>>>>>>> 56a4202cfc028421e7ba1b46e36b71075be6a89f
 }
 
 .client_section #carouselExampleControls {
@@ -636,8 +640,8 @@ width: 50%;
   height: 45px;
   border: none;
   opacity: 1;
-  background-color: #1c1c1c;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #1c1c1c;
   border-radius: 100%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -658,125 +662,8 @@ width: 50%;
   right: 0;
 }
 
-/* contact section */
-.contact_section {
-  position: relative;
-  color: #ffffff;
-}
 
-.contact_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contact_section .contact_form-container {
-  margin-top: 35px;
-}
-
-.contact_section .contact_form-container input {
-  border: none;
-  outline: none;
-  color: #000000;
-  height: 45px;
-  width: 100%;
-  margin: 15px 0;
-  padding-left: 15px;
-  background-color: #ffffff;
-}
-
-.contact_section .contact_form-container input::-webkit-input-placeholder {
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.contact_section .contact_form-container input:-ms-input-placeholder {
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.contact_section .contact_form-container input::-ms-input-placeholder {
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.contact_section .contact_form-container input::placeholder {
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.contact_section .contact_form-container input.message_input {
-  height: 120px;
-}
-
-.contact_section .contact_form-container .btn-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 25px;
-}
-
-.contact_section .contact_form-container button {
-  display: inline-block;
-  padding: 10px 60px;
-  background-color: #f1db25;
-  color: #ffffff;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border: 1px solid transparent;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.contact_section .contact_form-container button:hover {
-  background-color: transparent;
-  border-color: #f1db25;
-  color: #f1db25;
-}
-
-.contact_bg_box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contact_bg_box .img-box {
-  width: 100%;
-}
-
-.contact_bg_box .img-box img {
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.contact_bg_box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.35)));
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.35));
-}
-
-/* end contact section */
+/* team section */
 .team_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -833,7 +720,9 @@ width: 50%;
   border-color: #f1db25;
   color: #f1db25;
 }
+/* end team section */
 
+/* info section */
 .info_section {
   background-color: #101010;
   color: #ffffff;
@@ -936,6 +825,7 @@ width: 50%;
   color: #ffffff;
   font-size: 20px;
 }
+/* end info section */
 
 /* footer section*/
 .footer_section {
