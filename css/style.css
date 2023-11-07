@@ -563,8 +563,8 @@ width: 50%;
 
 
 .client_section {
-  text-align: center;
   position: relative;
+  text-align: center;
 }
 
 .client_section #carouselExampleControls {
