@@ -564,6 +564,7 @@ width: 50%;
 
 .client_section {
   text-align: center;
+  position: relative;
 }
 
 .client_section #carouselExampleControls {
@@ -949,7 +950,6 @@ width: 50%;
   padding: 20px;
   background-color: #101010;
 }
-
 
 .footer_section p {
   color: rgba(254, 254, 255, 0.7);
